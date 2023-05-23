@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Nhập - KIMO</title>
+    <link rel="icon" type="image/x-icon" href="Hình ảnh/Logo/BackgroundWhite_preview_rev_1.png">
+    <style>
+        body{
+            margin: 0 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .Header-Main{
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            display: flex;
+        }
+        .Img-1{
+            width: 100px;
+            height: 100px;
+            padding-left: 170px;
+        }
+        #Word-Login{
+            font-size: 26px;
+            margin: 0 0;
+            padding-top: 37px;
+            padding-left: 20px;
+        }
+        .Container-Main{
+            width: 80%;
+            height: 580px;
+            background-color: #4F86F7;
+            margin: 0 auto;
+            display: flex;
+        }
+        .Container-Left{
+            width: 50%;
+            height: 580px;
+            background-color:#4F86F7;
+        }
+        .Container-Right{
+            width: 50%;
+            height: 580px;
+            background-color:#4F86F7;
+        }
+        .Logo-Login{
+            width: 350px;
+            height: 350px;
+            margin-left: 130px;
+        }
+        .Frame-Sologan-Login{
+            margin-top: -120px;
+            width: 450px;
+            height: 200px;
+            margin-left: 100px;
+        }
+        #Sologan-Login{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            line-height: 35px;
+        }
+        .Frame-Login{
+            width: 400px;
+            height: 500px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 45px;
+            border-radius: 10px;
+            border: 0.1px solid #DCDCDC;
+            margin-left: 20px;
+        }
+        .Header-Login{
+            width: 100%;
+            height: 70px;
+            background-color: white;
+        }
+        #Header-Login-Word{
+            margin-top: 15px;
+            margin-left: 50px;
+            font-size: 25px;
+            padding-top: 30px;
+        }
+        .Container-Login{
+            width: 100%;
+            height: 300px;
+        }
+        .Container-Login input{
+            width: 320px;
+            height: 40px;
+            margin-left: 30px;
+            margin-top: 15px;
+            border: 1px solid #DCDCDC;
+            border-radius: 3px;
+            padding-left: 10px;
+        }
+        .Frame-Button-Login{
+            width: 335px;
+            height: 40px;
+            margin-left: 30px;
+            margin-top: 30px;
+            background-color: #4F86F7;
+            border-color: #DCDCDC;
+            color: white;
+            font-weight: bold;
+        }
+        .Frame-Button-Login:hover{
+            color: #E8CCD7;
+        }
+        .Frame-Login-Support{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+           
+        }
+        .Frame-Login-Support a{
+            text-decoration: none;
+            color: #1560BD;
+            font-size: 14px;
+        }
+        .Footer-Login{
+            width: 100%;
+            height: 100px;
+           
+        }
+        .Footer-Main{
+            width: 100%;
+            height: 300px;
+          
+        }
+        .Frame-toSignIn{
+            margin-left: 100px;
+            color: #696969;
+            font-size: 15px;
+        }
+        .Frame-toSignIn a{
+            text-decoration: none;
+            color: #1560BD;
+        }
+        .Frame-toSignIn a:hover{
+            color: #E4007C;
+        }
+        #Dash-Login{
+            width: 330px;
+            height: 1.5px;
+            background-color: #1560BD;
+        }
+    </style>
+</head>
+<body>
+    <div class="Header-Main">
+        <a href="index.html "><img  class="Img-1" src="Hình ảnh/Logo/BackgroundWhite.png"></a>
+        <p id="Word-Login">Đăng kí</p>
+    </div>
+    <div class="Container-Main">
+        <div class="Container-Left">
+            <img class="Logo-Login" src="Hình ảnh/Logo/BackgroundBlue.png">
+            <div class="Frame-Sologan-Login">
+                <p id="Sologan-Login">Nền tảng thương mại điện tử hỗ trợ sức khỏe và nhu cầu thiết yếu</p>
+            </div>
+        </div>
+        <div class="Container-Right">
+            <div class="Frame-Login">
+                    <div class="Header-Login">
+                        <p id="Header-Login-Word">Đăng kí</p>
+                    </div>
+                    <div class="Container-Login">
+                        <form action="">
+                            <br>
+                            <input type="text" name="userid" placeholder="Email/Số điện thoại/Tên đăng nhập">
+                            <br>
+                            <br>
+                            <input type="password" name="psw" placeholder="Mật khẩu">
+                            <br>
+                            <br>
+                            <input type="password" name="psw" placeholder="Nhập lại mật khẩu">
+                            <br>
+                        </form>
+                        <button class="Frame-Button-Login"><a>ĐĂNG KÍ</a></button>
+                        <div class="Frame-Login-Support">
+                            
+                            <a href="#">Đăng kí với SMS</a>
+                        </div>
+                        <hr id="Dash-Login">
+
+                    </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
